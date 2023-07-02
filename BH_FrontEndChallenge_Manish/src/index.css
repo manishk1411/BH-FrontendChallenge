@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.otp {
+  color: #8400f0;
+  width: 3rem !important;
+  height: 3rem !important;
+  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.568);
+  outline: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+}
+.otp::placeholder {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
+/* @import "compass/css3";
+
+input[type=text], textarea {
+  @include transition(all 0.30s ease-in-out);
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #c9c8d7e2;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  @include box-shadow(0 0 5px rgba(81, 203, 238, 1));
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgb(43, 15, 182);
+}
+
+label {
+  width: 150px;
+  float: left;
+}
+
+body {
+  padding: 20px;
+} */
+
+/* CSS code */
+
+
+.login-component {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+/* Custom styles for highlighted border */
+.login-component.highlight {
+  border: 2px solid blue;
+}
